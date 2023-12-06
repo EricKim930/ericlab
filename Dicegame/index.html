@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <img id="gameLogo" src="images/dice-logo.png" alt="Game Logo">
+    </div>
+    <p>Player vs Computer</p>
+
+    <div id="gameArea">
+        <div id="diceImages">
+            <img id="playerDice1" src="images/dice01.jpg" alt="Player Dice 1">
+            <img id="playerDice2" src="images/dice02.png" alt="Player Dice 2">
+            <img id="computerDice1" src="images/dice03.png" alt="Computer Dice 1">
+            <img id="computerDice2" src="images/dice04.jpg" alt="Computer Dice 2">
+            <img id="background" src="images/dice05.jpg" alt="Game Background">
+        </div>
+        <button id="rollButton">Roll Dice</button>
+        <button id="resetButton">Reset Game</button>
+        <div id="playerDice">Player Dice: </div>
+        <div id="computerDice">Computer Dice: </div>
+        <div id="playerScore">Player Score: </div>
+        <div id="computerScore">Computer Score: </div>
+        <div id="winner">Winner: <span id="winnerName"></span></div>
+    </div>
+
+    <div id="rulesModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Game Rules</h2>
+        <p>Here are the rules of the game: Roll the dice and the one with the higher score wins.</p>
+        
+    </div>
+</div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
